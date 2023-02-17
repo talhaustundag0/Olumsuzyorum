@@ -12,7 +12,8 @@
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <!-- CSS Documents-->
   <link rel="stylesheet" href="assets/styles/style.css">
-
+    <!-- Swiper JS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 </head>
 
 <body>
@@ -24,14 +25,14 @@
             <img src="assets/images/logo/logo.png" alt="">
         </div>
         <div class="menu d-flex align-items-center justify-content-between">
-            <div class="menu-items d-flex justify-content-between">
+            <div class="menu-items d-none d-lg-flex justify-content-between">
                 <a href="#">Startseite</a>
                 <a href="#">Prozess</a>
                 <a href="#">Pakete</a>
                 <a href="#">Services</a>
                 <a href="#">Kontakt</a>
             </div>
-            <div class="phone d-flex align-items-center justify-content-center">
+            <div class="phone d-none d-lg-flex align-items-center justify-content-center">
                 <div class="icon">
                     <a href="#"><i><img src="assets/images/icons/phone.png" alt=""></i></a>
                 </div>
@@ -46,13 +47,13 @@
   <main>
     
             <div class="row main-row">
-                <div class="col-4"></div>
-                <div class="col-4 main-left d-flex align-items-center justify-content-center">
+                <div class="col-0 col-lg-4"></div>
+                <div class="col-12 col-lg-4 main-left d-flex align-items-center justify-content-center">
                     <div class="title">
                         <h1><span class="line1"><span class="line">Haksız eleştiriye</span></span> uğradığınızı düşünüyorsanız, ekibimiz ile<br> bunun üstesinden geliyoruz</h1>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-lg-4 col-form">
                     <div class="container-form">
                         <div class="title">
                             <h3 class="d-flex align-items-center justify-content-center">Kostenlose Analyse für</h3>
@@ -156,7 +157,7 @@
                 </div>
                 <div class="col-12 col-lg-6">
                     <div class="container video">
-                        <video src="assets/images/video/video-1.mp4" autoplay="true" loop="true"  type="video/mp4"></video>
+                        <video src="assets/images/video/video-1.mp4" autoplay="autoplay" loop="loop" muted="muted"  type="video/mp4"></video>
                     </div>
                     <div class="box">
                         <div class="box-wrapper">
@@ -297,12 +298,18 @@
                     </div>
                 </div>
             </div>
-            <div class="title d-flex flex-column align-items-center">
+            <div class="row">
+            </div>
+            <div class="title d-none d-md-flex flex-column align-items-center">
                 <h1 class="h1">Unsere Erfahrung mit der Löschung von</h1>
                 <h1>Google Bewertungen</h1>
             </div>
+            <div class="title-mobile d-flex flex-column align-items-center mt-5 d-md-none">
+                <h1>Unsere Erfahrung mit der Löschung</h1>
+                <h1>von Google Bewertungen</h1>
+            </div>
             <div class="row row-exp">
-                <div class="col-12 col-lg-4 d-flex flex-column align-items-center">
+                <div class="col-12 col-lg-4 col-exp d-flex flex-column align-items-center">
                     <div class="text">
                         <h1>94%</h1>
                     </div>
@@ -310,7 +317,7 @@
                         <h6>Erfolgsquote</h6>
                     </div>
                 </div>
-                <div class="col-12 col-lg-4 d-flex flex-column align-items-center">
+                <div class="col-12 col-lg-4 col-exp d-flex flex-column align-items-center">
                     <div class="text">
                         <h1>2750+</h1>
                     </div>
@@ -318,7 +325,7 @@
                         <h6>Gelöschte Google-Bewertungen</h6>
                     </div>
                 </div>
-                <div class="col-12 col-lg-4 d-flex flex-column align-items-center">
+                <div class="col-12 col-lg-4 col-exp d-flex flex-column align-items-center">
                     <div class="text">
                         <h1>12</h1>
                     </div>
@@ -333,9 +340,9 @@
     <!--Warum Wir Area Start-->
     <section class="warum-wir">
         <div class="container container-warum">
-            <div class="row align-items-center">
+            <div class="row d-flex justify-content-center align-items-center">
                 <div class="col-12 col-lg-6">
-                    <div class="image">
+                    <div class="image d-flex justify-content-center align-items-center">
                         <img src="assets/images/shapes/woman-1.png" alt="">
                     </div>
                 </div>
@@ -852,6 +859,8 @@
   <!-- JavaScript Documents-->
   <script src="assets/js/main.js"></script>
   <script src="assets/js/swiper.js"></script>
+  <!--Swiper JS-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </body>
 
 </html>
