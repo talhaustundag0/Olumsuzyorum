@@ -1,0 +1,1014 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,500;1,600&display=swap');
+
+/* Root */
+
+*{
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+:root{
+    --maincolor:#ffb400;
+    --purplecolor:#27152f;
+    --footercolor:#040c2c;
+    --greencolor:#a2c629;
+    --deepgreen:#119d21;
+    --graycolor:#a1a1a1;
+    --orangetext:#e2a31c;
+}
+
+/* Root End */
+
+/* Base HTML Codes Start */
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 1200px!important;
+}
+
+/* Base HTML Codes End */
+
+/* Header Start */
+
+.navbar .logo img{
+    height: 9rem;
+}
+
+.navbar .menu{
+    font-size: 1.6rem;
+}
+
+.navbar .menu .menu-items{
+    padding: 2rem;
+}
+
+.navbar .menu .menu-items a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    padding: 2rem;
+}
+
+.navbar .menu .menu-items a:hover{
+    color: var(--maincolor);
+}
+
+.navbar .phone .icon a i img{
+    height: 3.4rem;
+}
+
+.navbar .phone .number{
+    margin-top: 0.5rem;
+}
+
+.navbar .phone .number h6{
+    font-weight: 900;
+    font-size: 1rem;
+    margin-bottom: -3px;
+}
+
+.navbar .phone .number h4{
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+/* Header End */
+
+/* Homepage Start */
+
+.main-row{
+    margin-top: 2rem;
+}
+
+body .homepage{
+    background-image: url("../../assets/images/bg/background-01.png");
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100vh;
+}
+
+.main-row .main-left .title{
+    margin-left: 6rem;
+    margin-top: 5rem;
+}
+
+.main-row .main-left .title h1{
+    font-family: "Cormorant Garamond";
+    font-size: 4.4rem;
+    font-weight: 500;
+}
+
+.main-row .main-left .title h1 .line{
+    font-family: "Cormorant Garamond";
+    font-size: 4.4rem;
+    font-weight: 500;
+}
+
+.main-row .main-left .title h1 .line1{
+    text-decoration:line-through 2px #342bec;
+}
+
+    /*Form Area Start */
+.container-form{
+    background-color: white;
+    width: 37rem;
+    height: 45rem;
+    border-radius: 1rem;
+}
+
+.container-form .title{
+    padding-top:3rem;
+}
+
+.container-form .title h3{
+    color: var(--purplecolor);
+    font-weight: 600;
+    font-size: 1.9rem;
+}
+
+.container-form{
+    position: relative;
+    margin-top: 10rem;
+}
+
+.container-form form{
+    padding: 2rem 3rem;
+}
+
+.container-form form select{
+    margin-top: -1rem;
+}
+
+.container-form form .lbl1{
+    color: var(--graycolor);
+}
+
+.container-form form .lbl2{
+    margin-bottom: -1rem;
+    color: var(--graycolor);
+}
+
+.container-form form input{
+    margin-bottom: 1rem;
+}
+
+.container-form form input::placeholder{
+    padding-left: 0.5rem;
+    font-size: 1rem;
+}
+
+.container-form form .checkbox label{
+    margin-left: 0.6rem;
+    font-weight: 500;
+}
+
+.container-form form .checkbox label a{
+    color: black;
+}
+
+.container-form form .btn-custom{
+    margin-top: 1rem;
+    height: 4rem;
+    background-color: var(--maincolor);
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border: none;
+}
+
+.container-form form .btn-custom:hover{
+    background-color: black;
+    color: var(--maincolor);
+    transition: 0.3s ease;
+}
+
+.container-form form .subtext{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--graycolor);
+    margin-top: 0.5rem;
+}
+    
+    /*Form Area End */
+/* Homepage End */
+
+/* Second Page Start */
+
+.s-page{
+    margin-top: 5rem;
+}
+
+.s-page .title h2{
+    font-size: 3.6rem;
+    font-weight: 600;
+    color: var(--purplecolor);
+}
+
+.s-page .video{
+    width: 580px;
+    height: 550px;
+}
+
+.s-page .video video{
+    width: 580px;
+    height: 550px;
+    object-fit: cover;
+}
+
+s.page .box{
+    width: 395px;
+    height: 185px;
+}
+
+.s-page .box .box-wrapper{
+    position: relative;
+    margin-top: -150px;
+    margin-left: -40px;
+    object-fit: cover;
+    width: 395px;
+    height: 185px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.s-page .container-custom p{
+    font-size: 1.4rem;
+    color:var(--graycolor) ;
+}
+
+.s-page .container-custom .row-custom{
+    margin-top: 5rem;
+}
+
+.s-page .container-custom .right-side h4{
+    font-size: 2rem;
+}
+
+.s-page .container-custom .right-side p{
+    font-size: 1.6rem;
+}
+
+.s-page .container-custom .s-page-content{
+    margin-top: 17rem;
+}
+
+.s-page .container-custom .s-page-content .content{
+    width: 36rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.s-page .container-custom .s-page-content .content p{
+    color: black;
+}
+
+.s-page .container-custom .s-page-content .list-title h5{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-left: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.s-page .container-custom .s-page-content .list-title ul{
+    font-size: 1.4rem;
+    list-style-image: url(../../assets/images/icons/list-style.png);
+}
+
+.s-page .container-custom .s-page-content .list-title ul li{
+    padding-bottom: 1rem;
+}
+
+/* Second Page End */
+
+/* Preise Start */
+
+.preise{
+    background-image: url(../images/bg/background-02.png);
+    height: 100vh;
+    margin-top: 10rem;
+}
+
+.preise .container-custom {
+    padding-top: 7rem;
+}
+
+.preise .container-custom .title h2{
+    font-size: 3.6rem;
+    font-weight: 600;
+    color: var(--purplecolor);
+}
+
+.preise .container-custom p{
+    font-size: 1.4rem;
+}
+
+.preise .container-custom .box-wrapper{
+    background-color: white;
+    height: 42rem;
+    width: 26rem;
+    border-radius: 2rem;
+    margin-top: 4rem;
+}
+
+.box-wrapper .title h4{
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.box-wrapper .subtext{
+    margin-top: -5px;
+    margin-bottom: 1rem;
+}
+
+
+.box-wrapper .subtext p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--graycolor);
+}
+
+.box-wrapper .price h2{
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+.box-wrapper .price h2 span{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.box-wrapper .price h6{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: -6px;
+    margin-bottom: 5rem;
+}
+
+.box-wrapper .box-list{
+    list-style-image: url(../images/icons/list-style.png);
+}
+
+.box-wrapper .box-list ul li{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.box-wrapper .box-footer{
+    margin-top: 2rem;
+}
+
+.box-wrapper .btn-preise button{
+    background-color: var(--maincolor);
+    border-radius: 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    width: 18rem;
+    height: 4.5rem;
+    border: 0.1rem solid black;
+}
+
+.box-wrapper .btn-preise button:hover{
+    background-color: black;
+    color: var(--maincolor);
+    transition: 0.3s ease;
+}
+
+.preise .container-custom .box-wrapper1{
+    background-color: white;
+    height: 42rem;
+    width: 26rem;
+    border-radius: 2rem;
+    margin-top: 4rem;
+}
+
+
+/* Preise End */
+
+/* Second Page Start */
+.preise .container-custom .box-wrapper1{
+    background-color: var(--maincolor);
+    height: 42rem;
+    width: 26rem;
+    border-radius: 2rem;
+    margin-top: 4rem;
+}
+
+.box-wrapper1 .title h4{
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.box-wrapper1 .subtext{
+    margin-top: -5px;
+    margin-bottom: 1rem;
+}
+
+
+.box-wrapper1 .subtext p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--graycolor);
+}
+
+.box-wrapper1 .price h2{
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+.box-wrapper1 .price h2 span{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.box-wrapper1 .price h6{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: -6px;
+    margin-bottom: 5rem;
+}
+
+.box-wrapper1 .box-list{
+    list-style-image: url(../images/icons/list-style.png);
+}
+
+.box-wrapper1 .box-list ul li{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.box-wrapper1 .box-footer{
+    margin-top: 2rem;
+}
+
+.box-wrapper1 .btn-preise button{
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    width: 18rem;
+    height: 4.5rem;
+    border: 0.1rem solid var(--maincolor);
+}
+
+.box-wrapper1 .btn-preise button:hover{
+    color: var(--maincolor);
+    transition: 0.3s ease;
+}
+
+
+.container-custom .title h1{
+    font-size: 3.8rem;
+    font-weight: 600;
+    font-family: "Inter";
+    color: var(--purplecolor);
+}
+
+.container-custom .title .h1{
+    margin-top: 10rem;
+}
+
+.container-custom .row-exp{
+    margin-top: 5rem;
+}
+
+.container-custom .row-exp .text h1{
+    font-size: 8.4rem;
+    font-weight: 600;
+    color: var(--orangetext);
+}
+
+.container-custom .row-exp .subtext h6{
+    font-size: 2.4rem;
+    font-weight: 600;
+    font-family: "Cormorant Garamond";
+}
+/* Second Page End */
+
+/* Third Page Start */
+
+.warum-wir{
+    margin-top: 15rem;
+}
+
+.warum-wir .col-custom{
+    width: 45rem;
+    margin-left: 5rem;
+}
+
+.warum-wir .title h2{
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: var(--purplecolor);
+    margin-bottom: 1.5rem;
+}
+
+.warum-wir .subtext{
+    margin-bottom: 1.5rem;
+}
+
+.warum-wir .subtext i{
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: "Inter";
+    color: var(--maincolor);
+}
+
+.warum-wir .content p{
+    font-size: 1.4rem;
+    margin-bottom: 2.5rem;
+}
+
+.warum-wir .custom-btn button{
+    width: 20rem;
+    height: 5rem;
+    border-radius: 1rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    background-color: var(--maincolor);
+}
+
+.warum-wir .custom-btn button:hover{
+    background-color: black;
+    color: var(--maincolor);
+    transition: 0.3s ease;
+}
+
+.warum-wir .row-custom{
+    padding-top: 15rem;
+}
+
+.warum-wir .row-custom .title{
+    width: 37rem;
+}
+
+.warum-wir .row-custom .title h2{
+    font-size: 3.4rem;
+    font-family: "Inter";
+    color: var(--purplecolor);
+    margin-bottom: 3rem;
+}
+
+.warum-wir .row-custom .subtext{
+    width: 37rem;
+}
+
+.warum-wir .row-custom .subtext p{
+    font-size: 1.2rem;
+    font-family: "Inter";
+}
+
+.warum-wir .row-custom .content{
+    width: 39rem;
+    margin-top: 3rem;
+}
+
+.warum-wir .row-custom .content p{
+    font-family: "Inter";
+    font-size: 1.4rem;
+}
+
+.warum-wir .row-custom .image img{
+    width: 75%;
+}
+
+/* Third Page End */
+
+/* Fourth Page Start */
+
+.fourth-page{
+    background-color: var(--maincolor);
+    margin-top: 10rem;
+}
+
+.fourth-page .title{
+    padding-top: 5rem;
+}
+
+.fourth-page .title h2{
+    font-size: 3.6rem;
+    font-weight: 700;
+    font-family: "Inter";
+    color: var(--purplecolor);
+}
+
+.fourth-page .subtext{
+    margin-top: 2rem;
+}
+
+.fourth-page .subtext p{
+    font-size: 1.4rem;
+}
+
+.fourth-page .subtext .p2{
+    margin-top: -1rem;
+}
+
+/* Fourth Page End */
+
+/* Calc Area Start */
+
+.calc-area .title h3{
+    font-weight: 600;
+}
+
+.calc-area .title1{
+    margin-left: 1.2rem;
+}
+
+.calc-area .wrapper{
+    margin-left: 5rem;
+}
+
+.calc-area .wrapper .text h6{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.calc-area .col-right .wrapper input{
+    font-size: 2rem;
+    width: 5rem;
+    height: 4.5rem;
+    border-radius: 1rem;
+    border: 0.1rem solid var(--purplecolor);
+    text-align: center;
+}
+
+.calc-area .col-right .wrapper .btn button{
+    width: 10rem;
+    height: 3.2rem;
+    border-radius: 1rem;
+    color: white;
+    background-color: var(--purplecolor);
+    font-size: 0.9rem;
+}
+
+.calc-area .row-custom{
+    border-bottom:0.1rem solid black;
+}
+
+.calc-area .container-custom .left-side{
+    width: 30rem;
+    margin-left: 16rem;
+    margin-top: -20px;
+}
+
+.calc-area .container-custom .left-side .title h3{
+    font-size: 1.6rem;
+}
+
+.calc-area .container-custom .left-side .content p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 1.2rem;
+}
+
+.calc-area .container-custom .rating h1{
+    font-size: 7.2rem;
+    margin-top: 1.2rem;
+}
+
+.calc-area .container-custom .subtext{
+    margin-top: -10px;
+}
+
+.calc-area .container-custom .subtext h3{
+    font-weight: 600;
+}
+
+.calc-area .container-btn{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.calc-area .container-btn .calc-btn button{
+    width: 20rem;
+    height: 5rem;
+    font-size: 1.4rem;
+    background-color: var(--maincolor);
+    color: black;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+
+.calc-area .container-btn .calc-btn button:hover{
+    background-color: black;
+    color: var(--maincolor);
+    transition: 0.3s ease;
+}
+
+/* Calc Area End */
+
+/* FAQ Area Start */
+
+.container-faq{
+    margin-top: 5rem;
+}
+
+.container-faq .title h2{
+    font-size: 3.6rem;
+    font-weight: 600;
+    color: var(--purplecolor);
+}
+
+.container-faq .subtext p{
+    font-size: 1.4rem;
+    color: var(--graycolor);
+}
+
+.accordion-button.collapsed::after{
+    background: url("../images/icons/arrow.png");
+    width: 24px;
+    height: 24px;
+}
+
+.accordion-button:not(.collapsed)::after{
+    background: url("../images/icons/arrow.png");
+    width: 24px;
+    height: 24px;
+}
+
+.accordion-button:not(.collapsed){
+    color: black!important;
+    background-color: white!important;
+
+}
+
+.container-faq .acc-area{
+    margin-top: 5rem;
+}
+
+.container-faq .acc-area .accordion .accordion-item{
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    width: 55rem;
+}
+
+.container-faq .acc-area .accordion .accordion-item .accordion-header{
+    width: 55rem;
+}
+
+.container-faq .acc-area .accordion .accordion-item .accordion-header button{
+    border-radius: 2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: "Inter";
+    width: 55rem;
+}
+
+.container-faq .acc-area .accordion .accordion-item .accordion-body{
+    font-size: 1.2rem;
+    font-family: "Inter";
+    color: var(--graycolor);
+}
+
+/* FAQ Area End */
+
+/* Our Team Area Start */
+
+.our-team{
+    margin-top: 8rem;
+}
+
+.our-team .container-custom .title h2{
+    font-size: 3.6rem;
+    font-weight: 600;
+    color: var(--purplecolor);
+}
+
+.our-team .container-custom .content p{
+    font-size: 1.4rem;
+    color: var(--graycolor);
+}
+
+.our-team .container-custom .row-custom{
+    margin-top: 5rem;
+}
+
+.our-team .container-custom .row-custom .box{
+    position: relative;
+    background-color: white;
+    width: 14rem;
+    height: 4.5rem;
+    margin-top: -65px;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.our-team .container-custom .row-custom .box .content h3{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 0.7rem;
+    margin-bottom: 0;
+}
+
+.our-team .container-custom .row-custom .box .content p{
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+}
+
+.contact .container-custom{
+    margin-top: 15rem;
+}
+
+.contact .container-custom .title h2{
+    font-size: 3.6rem;
+    font-weight: 600;
+    color: var(--purplecolor);
+}
+
+.container-form2{
+    width: 42rem;
+}
+
+.container-form2 .form-area{
+    width: 35rem;
+}
+
+.container-form2 .content p{
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+}
+
+.container-form2 .lbl1{
+    font-size: 1rem;
+    margin-bottom: -10px;
+    color: var(--graycolor);
+}
+
+.container-form2 .lbl2{
+    font-size: 1rem;
+    color: var(--graycolor);
+}
+
+.container-form2 select{
+    height: 3rem;
+}
+
+.container-form2 label a{
+    color: black;
+}
+
+.container-form2 .btn-custom{
+    margin-top: 1rem;
+    height: 4.5rem;
+    width: 16rem;
+    background-color: var(--maincolor);
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.container-form2 form .btn-custom:hover{
+    background-color: var(--purplecolor);
+}
+
+/* Our Team Area End */
+
+/* Footer Start */
+
+footer{
+    margin-top: 12rem;
+    background-color: var(--footercolor);
+}
+
+.container-footer .title {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.container-footer .title h5{
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+    color: var(--greencolor);
+}
+
+.container-footer .title h3{
+    font-size: 3.6rem;
+    font-weight: 700;
+    color: white;
+}
+
+.container-footer .form{
+    width: 30rem;
+}
+
+.container-footer .form input{
+    height: 3rem;
+    background-color: var(--footercolor);
+    border-bottom: 0.1px solid var(--graycolor);
+    color: white;
+    font-size: 1.6rem;
+}
+
+.container-footer .form input::placeholder{
+    font-size: 1.2rem;
+}
+
+.container-footer .form textarea{
+    background-color: var(--footercolor);
+    border:1px solid var(--graycolor);
+    color: white;
+    font-size: 1.4rem;
+}
+
+.container-footer .form textarea::placeholder{
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+
+.container-footer .form .btn-custom{
+    color: var(--graycolor);
+    font-size: 1.4rem;
+    width: 14rem;
+    margin-left: -20px;
+}
+
+.container-footer .form .text{
+    margin-top: 3rem;
+}
+
+.container-footer .form .text p{
+    color: var(--graycolor);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.container-footer .col-custom{
+    margin-top: 16rem;
+}
+
+.container-footer .col-custom h3{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.container-footer .col-custom h5{
+    color: var(--graycolor);
+    font-size: 0.9rem;
+}
+
+.container-footer .col-custom .content{
+    font-size: 1.1rem;
+    color: var(--graycolor);
+    margin-bottom: 1rem;
+}
+
+.container-footer .col-custom .phone{
+    font-size: 1.1rem;
+    color: var(--graycolor);
+    margin-bottom: 1rem;
+}
+
+.container-footer .col-custom a{
+    font-size: 1.1rem;
+    color: var(--graycolor);
+}
+
+.container-footer .col-custom1{
+    margin-top: 35rem;
+}
+
+.container-footer .col-custom1 .subtext h5{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--deepgreen);
+}
+
+.container-footer .col-custom1 .text p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--graycolor);
+    margin-top: 1.5rem;
+    margin-left: 15rem;
+}
+
+/* Footer End */
+
+/* Responsive Area */
+
+@media(max-width:510px){
+
+    body .homepage{
+        background-image: none;
+        background-color:#d6d660 ;
+    }
+
+    
+}
